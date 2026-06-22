@@ -60,7 +60,7 @@ const CURSOS = [
   {
     nome: 'Técnicas Monocromáticas',
     desc: 'Acabamento sofisticado em uma única cor. Mármore, bronze, madeira.',
-    img: '/img/pecas/peca-08.jpg',
+    img: '/img/pecas/monocromaticas-new.jpg',
     modulos: [
       'Base: preparação e reparos no gesso/resina',
       'Tipos de betume (qual usa pra que)',
@@ -97,7 +97,7 @@ const CURSOS = [
   {
     nome: 'Degradê',
     desc: 'O método das 3 camadas. A tinta certa, a ordem certa, o tempo certo.',
-    img: '/img/pecas/guadalupe-02.jpg',
+    img: '/img/pecas/degrade-new.jpg',
     modulos: [
       'Degradê em tinta acrílica fosca (Nossa Senhora Aparecida)',
       'Degradê em tinta metálica (degradê incrível)',
@@ -111,7 +111,7 @@ const CURSOS = [
   {
     nome: 'Customize',
     desc: 'Personalização avançada de imagens religiosas. Transforma uma peça padrão em arte única.',
-    img: '/img/pecas/preciosidades-02.jpg',
+    img: '/img/pecas/customize-new.jpg',
     modulos: [
       'Fundação: cores e brancos, dourados, impermeabilização do gesso, PVA x acrílica, reparos no gesso',
       'N. Sra. Aparecida com manto em renda (iniciante mas requintada)',
@@ -131,7 +131,7 @@ const CURSOS = [
   {
     nome: 'Combo 4 Cursos (Mini Combo)',
     desc: 'Os 4 cursos essenciais agrupados. Base sólida pra começar.',
-    img: '/img/pecas/peca-09.jpg',
+    img: '/img/pecas/combo4-new.jpg',
     modulos: [
       'Sagrada Família: pintura perolada, betume sem erros, técnica básica de rostos, dourado, envelhecimento',
       'Santa Rita (Pintura a Óleo): introdução à óleo, luz e sombra, acabamento elegante',
@@ -161,18 +161,18 @@ const CURSOS = [
 ];
 
 const GALERIA_PECAS = [
-  '/img/pecas/peca-01.jpg',
-  '/img/pecas/guadalupe-01.jpg',
-  '/img/pecas/peca-02.jpg',
-  '/img/pecas/preciosidades-01.jpg',
-  '/img/pecas/peca-03.jpg',
-  '/img/pecas/guadalupe-02.jpg',
-  '/img/pecas/peca-04.jpg',
-  '/img/pecas/guadalupe-03.jpg',
-  '/img/pecas/peca-05.jpg',
-  '/img/pecas/peca-06.jpg',
-  '/img/pecas/guadalupe-04.jpg',
-  '/img/pecas/preciosidades-02.jpg',
+  '/img/galeria-nova/galeria-01.jpg',
+  '/img/galeria-nova/galeria-02.jpg',
+  '/img/galeria-nova/galeria-03.jpg',
+  '/img/galeria-nova/galeria-04.jpg',
+  '/img/galeria-nova/galeria-05.jpg',
+  '/img/galeria-nova/galeria-06.jpg',
+  '/img/galeria-nova/galeria-07.jpg',
+  '/img/galeria-nova/galeria-08.jpg',
+  '/img/galeria-nova/galeria-09.jpg',
+  '/img/galeria-nova/galeria-10.jpg',
+  '/img/galeria-nova/galeria-11.jpg',
+  '/img/galeria-nova/galeria-12.jpg',
 ];
 
 function TopBanner() {
@@ -356,7 +356,7 @@ function Dobra1Promessa() {
               </p>
             </div>
             <div className="flex flex-col items-center md:items-start gap-4">
-              <Btn large>QUERO MEU PRESENTE POR R$ 397</Btn>
+              <Btn large>QUERO A COLEÇÃO COMPLETA POR 12x DE R$ 41,06</Btn>
               <p className="text-sm text-[#C5A059]">ou 12x R$ 41,06 no cartão · Acesso imediato vitalício</p>
             </div>
           </div>
@@ -540,7 +540,7 @@ function Dobra4Transicao() {
     { titulo: 'Caminho completo, não retalho', desc: 'Os 7 cursos cobrem do iniciante ao avançado, de altar a terço, de monocromático a degradê, de customização a posicionamento.' },
     { titulo: 'Vitalício', desc: 'Você assiste, pausa, revisa, volta no seu ritmo, pra sempre. Sem mensalidade. Sem data de expiração.' },
     { titulo: 'Preço de UM curso + R$ 100, leva os 7', desc: 'Cada um vale R$ 297. Você já investiu R$ 297 em um curso comigo. Hoje, com seu desconto EXTRA exclusivo de aluna (R$ 300 EXTRAS de desconto sobre os R$ 697), leva os 7 vitalícios por R$ 397. Economia de R$ 1.682 contra avulso.' },
-    { titulo: 'Acesso ao MEU método completo', desc: 'O que eu construí nos últimos 12 anos, do banco que eu trabalhava ao ateliê que sustenta minha família. Tudo gravado, organizado, sem retalho.' },
+    { titulo: 'Acesso à Coleção Diamante completa', desc: 'Você leva os 7 cursos vitalícios da Coleção — e como o Combo 4 Cursos (Mini Combo) traz dentro dele Sagrada Família, Santa Rita Óleo, Monocromática Veronese e Pincel Seco + Efeito Mármore, na prática você sai com 10 cursos no total. Tudo gravado, organizado, no seu ritmo, pra sempre.' },
     { titulo: 'Vagas limitadas pra essa live', desc: 'Não é um produto disponível na vitrine. É exclusivo pra quem está aqui agora. Quando a live acabar OU os ingressos esgotarem, encerra. Sem volta.' },
   ];
   return (
@@ -759,7 +759,7 @@ function Dobra6TudoQueRecebe() {
             </div>
 
             <div className="pt-4">
-              <Btn large>QUERO MEU PRESENTE POR R$ 397</Btn>
+              <Btn large>QUERO A COLEÇÃO COMPLETA POR 12x DE R$ 41,06</Btn>
             </div>
           </div>
         </div>
@@ -906,7 +906,7 @@ function Dobra9PrecoBotao() {
               </li>
             ))}
           </ul>
-          <Btn large>QUERO MEU PRESENTE POR R$ 397</Btn>
+          <Btn large>QUERO A COLEÇÃO COMPLETA POR 12x DE R$ 41,06</Btn>
           <p className="text-sm text-[#5C4033] mt-4 flex items-center justify-center gap-2">
             <Lock size={14} /> Pagamento seguro via Hotmart
           </p>
@@ -1025,7 +1025,7 @@ function Dobra12CTAFinal() {
           <p className="text-lg md:text-xl text-white">à vista <span className="text-[#D4C4A8]">ou</span> 12x R$ 41,06</p>
           <p className="text-sm text-[#C5A059] mt-2 italic">acesso vitalício 💎</p>
         </div>
-        <Btn large>QUERO MEU PRESENTE POR R$ 397</Btn>
+        <Btn large>QUERO A COLEÇÃO COMPLETA POR 12x DE R$ 41,06</Btn>
         <div className="mt-8 flex flex-wrap justify-center gap-4 text-sm text-[#D4C4A8]">
           <span className="flex items-center gap-1"><Lock size={14} /> Pagamento seguro Hotmart</span>
           <span className="flex items-center gap-1"><Check size={14} /> Acesso imediato</span>
