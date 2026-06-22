@@ -315,7 +315,7 @@ function CheckoutFormModal({ open, onClose }: { open: boolean; onClose: () => vo
         <div className="mt-4 flex items-center justify-center gap-3 text-xs text-[#5C4033]">
           <span className="flex items-center gap-1"><Lock size={12} /> Seguro Hotmart</span>
           <span>•</span>
-          <span>R$ 397 à vista ou 12x R$ 39,69</span>
+          <span>R$ 397 à vista ou 12x R$ 41,06</span>
         </div>
       </div>
     </div>
@@ -357,7 +357,7 @@ function Dobra1Promessa() {
             </div>
             <div className="flex flex-col items-center md:items-start gap-4">
               <Btn large>QUERO MEU PRESENTE POR R$ 397</Btn>
-              <p className="text-sm text-[#C5A059]">ou 12x R$ 39,69 no cartão · Acesso imediato vitalício</p>
+              <p className="text-sm text-[#C5A059]">ou 12x R$ 41,06 no cartão · Acesso imediato vitalício</p>
             </div>
           </div>
           <div className="relative">
@@ -749,7 +749,7 @@ function Dobra6TudoQueRecebe() {
 
             <p className="text-6xl md:text-8xl font-bold text-[#22C55E]">R$ 397</p>
             <p className="text-lg md:text-xl text-white">à vista <span className="text-[#D4C4A8]">ou apenas</span></p>
-            <p className="text-3xl md:text-5xl font-bold text-[#22C55E]">12x R$ 39,69</p>
+            <p className="text-3xl md:text-5xl font-bold text-[#22C55E]">12x R$ 41,06</p>
             <p className="text-base md:text-lg text-white">com <span className="text-[#C5A059] font-bold">acesso vitalício</span> 💎</p>
 
             <div className="mt-5 bg-[#22C55E]/15 border border-[#22C55E]/40 rounded-2xl p-4 max-w-xl mx-auto">
@@ -889,7 +889,7 @@ function Dobra9PrecoBotao() {
           <p className="text-[#16A34A] uppercase tracking-wider text-sm mb-2 font-bold">Pra você, aluna querida</p>
           <p className="text-6xl md:text-8xl font-bold text-[#16A34A] mb-2">R$ 397</p>
           <p className="text-lg md:text-xl text-[#3D3D3D] mb-2">à vista</p>
-          <p className="text-base md:text-lg text-[#5C4033] mb-2">ou <span className="font-bold">12x R$ 39,69</span> no cartão</p>
+          <p className="text-base md:text-lg text-[#5C4033] mb-2">ou <span className="font-bold">12x R$ 41,06</span> no cartão</p>
           <p className="text-base md:text-lg text-[#16A34A] font-bold mb-8">Com R$ 300 EXTRAS de desconto exclusivo de aluna 💎</p>
 
           <ul className="text-left max-w-md mx-auto space-y-3 mb-8">
@@ -1022,7 +1022,7 @@ function Dobra12CTAFinal() {
           <p className="text-[#D4C4A8] mb-4">Pra novos alunos: <span className="line-through">R$ 697</span></p>
           <p className="text-[#22C55E] uppercase tracking-wider text-sm mb-2 font-bold">Pra você, aluna querida:</p>
           <p className="text-6xl md:text-8xl font-bold text-[#22C55E] mb-2">R$ 397</p>
-          <p className="text-lg md:text-xl text-white">à vista <span className="text-[#D4C4A8]">ou</span> 12x R$ 39,69</p>
+          <p className="text-lg md:text-xl text-white">à vista <span className="text-[#D4C4A8]">ou</span> 12x R$ 41,06</p>
           <p className="text-sm text-[#C5A059] mt-2 italic">acesso vitalício 💎</p>
         </div>
         <Btn large>QUERO MEU PRESENTE POR R$ 397</Btn>
