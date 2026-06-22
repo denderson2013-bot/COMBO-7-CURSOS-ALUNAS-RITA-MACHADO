@@ -179,7 +179,7 @@ function TopBanner() {
   return (
     <div className="sticky top-0 z-50 bg-gradient-to-r from-[#22C55E] via-[#16A34A] to-[#22C55E] text-white py-2 px-4 text-center shadow-lg">
       <p className="text-xs md:text-sm font-bold tracking-wide uppercase">
-        🎁 EXCLUSIVO PARA ALUNAS · R$ 300 OFF · 7 cursos vitalícios por R$ 397
+        🎁 EXCLUSIVO PARA ALUNAS · R$ 300 EXTRAS de desconto · 7 cursos vitalícios por R$ 397
       </p>
     </div>
   );
@@ -342,10 +342,10 @@ function Dobra1Promessa() {
           <div className="text-center md:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#22C55E] to-[#16A34A] rounded-full mb-6 animate-pulse">
               <Heart size={14} className="text-white fill-white" />
-              <span className="text-xs md:text-sm font-bold text-white uppercase tracking-wider">🎁 EXCLUSIVO PARA ALUNAS · R$ 300 OFF</span>
+              <span className="text-xs md:text-sm font-bold text-white uppercase tracking-wider">🎁 EXCLUSIVO PARA ALUNAS · R$ 300 EXTRAS de desconto</span>
             </div>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              Aluna querida, você merece um <span className="text-[#22C55E]">presente</span>: a <span className="italic text-[#C5A059] font-serif">Coleção Diamante 💎</span> com <span className="text-[#22C55E]">R$ 300 OFF</span>
+              Aluna querida, você merece um <span className="text-[#22C55E]">presente</span>: a <span className="italic text-[#C5A059] font-serif">Coleção Diamante 💎</span> com <span className="text-[#22C55E]">R$ 300 EXTRAS de desconto</span>
             </h1>
             <p className="text-lg md:text-xl text-[#D4C4A8] mb-6 leading-relaxed">
               Você já confiou em mim e investiu R$ 297 em um dos meus cursos. Agora, vou te entregar os <strong className="text-[#C5A059]">7 cursos vitalícios</strong> da Coleção Diamante por apenas R$ 397.
@@ -539,7 +539,7 @@ function Dobra4Transicao() {
   const motivos = [
     { titulo: 'Caminho completo, não retalho', desc: 'Os 7 cursos cobrem do iniciante ao avançado, de altar a terço, de monocromático a degradê, de customização a posicionamento.' },
     { titulo: 'Vitalício', desc: 'Você assiste, pausa, revisa, volta no seu ritmo, pra sempre. Sem mensalidade. Sem data de expiração.' },
-    { titulo: 'Preço de UM curso + R$ 100, leva os 7', desc: 'Cada um vale R$ 297. Você já investiu R$ 297 em um curso comigo. Hoje, com seu desconto exclusivo de aluna (R$ 300 OFF sobre os R$ 697), leva os 7 vitalícios por R$ 397. Economia de R$ 1.682 contra avulso.' },
+    { titulo: 'Preço de UM curso + R$ 100, leva os 7', desc: 'Cada um vale R$ 297. Você já investiu R$ 297 em um curso comigo. Hoje, com seu desconto EXTRA exclusivo de aluna (R$ 300 EXTRAS de desconto sobre os R$ 697), leva os 7 vitalícios por R$ 397. Economia de R$ 1.682 contra avulso.' },
     { titulo: 'Acesso ao MEU método completo', desc: 'O que eu construí nos últimos 12 anos, do banco que eu trabalhava ao ateliê que sustenta minha família. Tudo gravado, organizado, sem retalho.' },
     { titulo: 'Vagas limitadas pra essa live', desc: 'Não é um produto disponível na vitrine. É exclusivo pra quem está aqui agora. Quando a live acabar OU os ingressos esgotarem, encerra. Sem volta.' },
   ];
@@ -697,7 +697,7 @@ function Dobra6TudoQueRecebe() {
     <section className="py-16 md:py-20 px-4 bg-[#FDF9F3]">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12">
-          <Eyebrow>🎁 Exclusivo aluna · R$ 300 OFF sobre os R$ 697</Eyebrow>
+          <Eyebrow>🎁 Exclusivo aluna · R$ 300 EXTRAS de desconto sobre os R$ 697</Eyebrow>
           <h2 className="text-3xl md:text-5xl font-bold text-[#3D3D3D] mb-4">
             Os <span className="text-[#B3541E]">7 cursos vitalícios</span> que você leva no combo
           </h2>
@@ -745,7 +745,7 @@ function Dobra6TudoQueRecebe() {
             <div className="my-6 border-t border-[#3D3D3D]" />
 
             <p className="text-[#22C55E] text-base md:text-lg uppercase tracking-wider font-bold">PRA VOCÊ, ALUNA QUERIDA</p>
-            <p className="text-[#D4C4A8] text-sm md:text-base">com seu desconto exclusivo de <span className="text-[#22C55E] font-bold">R$ 300 OFF</span></p>
+            <p className="text-[#D4C4A8] text-sm md:text-base">com seu desconto exclusivo de <span className="text-[#22C55E] font-bold">R$ 300 EXTRAS de desconto</span></p>
 
             <p className="text-6xl md:text-8xl font-bold text-[#22C55E]">R$ 397</p>
             <p className="text-lg md:text-xl text-white">à vista <span className="text-[#D4C4A8]">ou apenas</span></p>
@@ -858,7 +858,7 @@ function Dobra8Ancoragem() {
             <p className="text-sm text-[#D4C4A8] uppercase tracking-wider mb-2">Economia projetada em 5 anos</p>
             <p className="text-3xl md:text-5xl font-bold text-[#22C55E]">R$ 9.998</p>
             <p className="text-lg text-[#22C55E] mt-1">(96% off)</p>
-            <p className="text-xs text-[#D4C4A8] mt-2 italic">+ R$ 300 OFF exclusivo de aluna</p>
+            <p className="text-xs text-[#D4C4A8] mt-2 italic">+ R$ 300 EXTRAS de desconto exclusivo de aluna</p>
           </div>
         </div>
         <p className="text-center text-[#D4C4A8] mt-8 text-sm md:text-base italic">
@@ -876,7 +876,7 @@ function Dobra9PrecoBotao() {
       <div className="container mx-auto max-w-3xl text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full mb-6 animate-pulse">
           <Heart size={14} className="text-[#16A34A] fill-[#16A34A]" />
-          <span className="text-xs md:text-sm font-bold text-[#16A34A] uppercase tracking-wider">🎁 PRESENTE EXCLUSIVO PARA ALUNAS · R$ 300 OFF</span>
+          <span className="text-xs md:text-sm font-bold text-[#16A34A] uppercase tracking-wider">🎁 PRESENTE EXCLUSIVO PARA ALUNAS · R$ 300 EXTRAS de desconto</span>
         </div>
         <h2 className="text-3xl md:text-5xl font-bold mb-8">SEU INVESTIMENTO COMO ALUNA</h2>
         <div className="bg-white text-[#3D3D3D] rounded-3xl p-8 md:p-12 shadow-2xl">
@@ -890,7 +890,7 @@ function Dobra9PrecoBotao() {
           <p className="text-6xl md:text-8xl font-bold text-[#16A34A] mb-2">R$ 397</p>
           <p className="text-lg md:text-xl text-[#3D3D3D] mb-2">à vista</p>
           <p className="text-base md:text-lg text-[#5C4033] mb-2">ou <span className="font-bold">12x R$ 39,69</span> no cartão</p>
-          <p className="text-base md:text-lg text-[#16A34A] font-bold mb-8">Com R$ 300 de desconto exclusivo de aluna 💎</p>
+          <p className="text-base md:text-lg text-[#16A34A] font-bold mb-8">Com R$ 300 EXTRAS de desconto exclusivo de aluna 💎</p>
 
           <ul className="text-left max-w-md mx-auto space-y-3 mb-8">
             {[
@@ -1010,7 +1010,7 @@ function Dobra12CTAFinal() {
       <div className="container mx-auto max-w-3xl relative z-10 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#22C55E] to-[#16A34A] rounded-full mb-6 animate-pulse">
           <Heart size={14} className="text-white fill-white" />
-          <span className="text-xs md:text-sm font-bold text-white uppercase tracking-wider">🎁 PRESENTE EXCLUSIVO PARA ALUNAS · R$ 300 OFF</span>
+          <span className="text-xs md:text-sm font-bold text-white uppercase tracking-wider">🎁 PRESENTE EXCLUSIVO PARA ALUNAS · R$ 300 EXTRAS de desconto</span>
         </div>
         <h2 className="text-4xl md:text-6xl font-bold mb-6">
           <span className="text-[#C5A059]">7 cursos vitalícios.</span>
