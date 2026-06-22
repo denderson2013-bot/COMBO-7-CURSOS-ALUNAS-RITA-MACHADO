@@ -177,9 +177,9 @@ const GALERIA_PECAS = [
 
 function TopBanner() {
   return (
-    <div className="sticky top-0 z-50 bg-gradient-to-r from-[#A8261E] via-[#B3541E] to-[#A8261E] text-white py-2 px-4 text-center shadow-lg">
+    <div className="sticky top-0 z-50 bg-gradient-to-r from-[#22C55E] via-[#16A34A] to-[#22C55E] text-white py-2 px-4 text-center shadow-lg">
       <p className="text-xs md:text-sm font-bold tracking-wide uppercase">
-        ⚠️ VAGAS LIMITADAS · Garanta a sua antes de esgotar
+        🎁 EXCLUSIVO PARA ALUNAS · R$ 300 OFF · 7 cursos vitalícios por R$ 397
       </p>
     </div>
   );
